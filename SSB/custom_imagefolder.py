@@ -3,7 +3,7 @@ import torchvision
 import numpy as np
 from torchvision.datasets.folder import default_loader, make_dataset, IMG_EXTENSIONS
 from torchvision.datasets.folder import find_classes as find_classes_default
-from SSB.utils import load_index_to_name, load_class_splits
+from utils import load_index_to_name, load_class_splits
 
 IMG_EXTENSIONS += ('.JPEG',)
 

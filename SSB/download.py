@@ -9,9 +9,9 @@ from tqdm import tqdm
 import concurrent.futures
 import xml.etree.ElementTree as ET
 
-from SSB.utils import load_config
-from SSB.utils import load_class_splits
-from SSB.utils import load_imagenet21k_val_files
+from utils import load_config
+from utils import load_class_splits
+from utils import load_imagenet21k_val_files
 
 CUB_URL = 'https://data.caltech.edu/records/65de6-vp158/files/CUB_200_2011.tgz?download=1'
 AIRCRAFT_URL = 'https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/archives/fgvc-aircraft-2013b.tar.gz'

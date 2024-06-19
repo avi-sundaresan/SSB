@@ -5,7 +5,7 @@ import numpy as np
 from torchvision.datasets.folder import default_loader
 from torch.utils.data import Dataset
 
-from SSB.utils import load_config
+from utils import load_config
 
 config = load_config()
 cub_root_dir = config['cub_directory']
