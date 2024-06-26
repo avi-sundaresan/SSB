@@ -69,7 +69,8 @@ def load_class_splits(dataset_name: str) -> dict:
     """
 
     resource_relative_path = f'splits/{dataset_name}_ssb_splits.json'
-    json_path = resource_filename('SSB', resource_relative_path)
+    # json_path = resource_filename('SSB', resource_relative_path)
+    json_path = resource_relative_path
     with open(json_path, 'r') as f:
         class_splits = json.load(f)
 

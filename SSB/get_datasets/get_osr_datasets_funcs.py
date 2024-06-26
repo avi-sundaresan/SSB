@@ -1,4 +1,5 @@
 from SSB.get_datasets.imagenet import get_imagenet_osr_datasets
+from SSB.get_datasets.cub import get_cub_gcd_datasets
 
 get_gcd_dataset_funcs = {
     'imagenet': get_imagenet_osr_datasets
